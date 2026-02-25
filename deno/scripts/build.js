@@ -10,7 +10,7 @@ const supportedTargets = [
   'aarch64-unknown-linux-gnu'
 ];
 
-const [target] = Deno.args;
+const [ target ] = Deno.args;
 if (target && !supportedTargets.includes(target)) {
   console.error('error: unknown target');
   Deno.exit(1);
