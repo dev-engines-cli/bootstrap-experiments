@@ -1,0 +1,13 @@
+{
+  "name": "dev-engines-bootstrap",
+  "version": "0.0.1",
+  "description": "The default template for a Neutralinojs app. It's possible to use your favorite frontend framework by using [these steps](https://neutralino.js.org/docs/getting-started/using-frontend-libraries).",
+  "license": "MIT",
+  "author": "",
+  "type": "module",
+  "main": "index.js",
+  "scripts": {
+    "start": "npx @neutralinojs/neu run",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  }
+}

@@ -1,0 +1,41 @@
+{
+  "applicationId": "com.github.dev-engines-cli",
+  "port": 8549,
+  "defaultMode": "window",
+  "enableServer": true,
+  "enableNativeAPI": true,
+  "url": "/dist/",
+  "logging": {
+    "enabled": true
+  },
+  "modes": {
+    "window": {
+      "title": "devEngines CLI Installer",
+      "width": 800,
+      "height": 500,
+      "minWidth": 400,
+      "minHeight": 250,
+      "fullScreen": false,
+      "alwaysOnTop": false,
+      "icon": "/files/icons/icon.png",
+      "enableInspector": true,
+      "borderless": false,
+      "maximize": false,
+      "exitProcessOnClose": true
+    },
+    "browser": {},
+    "cloud": {}
+  },
+  "cli": {
+    "binaryName": "dev-engines-cli-installer",
+    "resourcesPath": "/src",
+    "binaryVersion": "3.0.0",
+    "clientVersion": "2.0.0",
+    "frontendLibrary": {
+      "patchFile": "/index.html",
+      "devUrl": "http://localhost:5500",
+      "devCommand": "npm run dev",
+      "buildCommand": "npm run build"
+    }
+  }
+}

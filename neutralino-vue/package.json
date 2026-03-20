@@ -1,0 +1,22 @@
+{
+  "name": "dev-engines-cli-installer",
+  "version": "0.0.1",
+  "description": "Installer for devEngines CLI",
+  "scripts": {
+    "start": "neu run",
+    "dev": "vite --host",
+    "build": "vite build"
+  },
+  "license": "MIT",
+  "dependencies": {
+    "@neutralinojs/lib": "^6.5.0",
+    "@neutralinojs/neu": "11.7.0",
+    "vue": "3.5.29",
+    "vue-doxen": "^0.12.1"
+  },
+  "devDependencies": {
+    "@vitejs/plugin-vue": "6.0.4",
+    "concurrently": "^9.2.1",
+    "vite": "7.3.1"
+  }
+}
